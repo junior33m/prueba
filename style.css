@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+th,td{
+    border: 1px solid rgb(11, 10, 10);
+    text-align: center;
+    padding: 5px;
+ 
+}
+th{
+    background-color: rgb(234, 131, 131);
+    color: rgb(10, 9, 9);
+
+}
+td{
+    background-color: rgb(209, 166, 110);
+    
+}
+thead :nth-child(1) th{
+    background-color: rgb(231, 44, 44);
+
+}
+thead :nth-child(2) th{
+    background-color: rgb(138, 58, 58);
+} 
+
